@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowsChanged"
+    android:packageNames="com.bol.shop, nl.wehkamp.shop, de.zalando.mobile, com.hm, com.android.chrome, org.mozilla.firefox, com.amazon.mShop.android.shopping, com.contextlogic.wish"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="true"
+    android:accessibilityFlags="flagDefault|flagIncludeNotImportantViews|flagReportViewIds|flagRequestEnhancedWebAccessibility|flagRetrieveInteractiveWindows"
+     />
